@@ -1,0 +1,180 @@
+   body{
+  font-family: 'Amiri', serif;
+  font-size: 1.2rem;
+ text-align: center;
+  }
+
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Amiri', serif;
+  }
+
+  p {
+    color: #696464;
+  }
+ /* heading */
+
+  .big-heading {
+    font-family: 'Karma', serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .container-fluid {
+    padding: 7% 15%;
+  }
+
+  .colored-section{
+    background-color: #fa163f;
+    color: #ffffff;
+  }
+
+  .white-section{
+    background-color: #ffffff;
+  }
+
+  /* Navigation-bar */
+
+  .navbar {
+    padding-bottom: 4.5rem;
+  }
+
+  .navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .navbar-item {
+    padding: 0 18px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    font-family:
+  }
+
+  /* buttons */
+
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+  /* title-section */
+
+
+  #title.container-fluid{
+    padding: 3% 200%;
+      text-align: left;
+  }
+
+  /* title image */
+
+  .title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+
+  }
+
+  /* features section */
+
+  #features {
+    position: relative;
+
+  }
+  .feature-title {
+    font-size: 1.5rem;
+  }
+
+  .feature-box {
+    padding: 4.5%;
+  }
+
+
+  .icon {
+    color: #50b6bb;
+    margin-bottom: 1rem;
+
+
+  }
+
+  .icon:hover {
+    color: #96f7d2;
+  }
+
+
+  /* Testimonials*/
+
+  #testimonials{
+    background-color: #ff847c;
+  }
+
+
+  .testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  #press {
+    background-color: #ff847c;
+
+    padding-bottom: 3%;
+  }
+
+  .press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+  }
+
+  /* pricing section */
+
+  #pricing {
+    padding: 100px;
+
+  }
+
+  .pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .pricing-column {
+    padding: 3% 2%;
+  }
+
+
+  @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+ /* Cta section */
+
+  #cta {
+    background-color: #ff427f;
+
+  }
+
+  /* footer-section*/
+
+  .social-icon {
+    margin: 10px 20px;
+  }
